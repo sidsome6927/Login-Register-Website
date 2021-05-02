@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flux*Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png">
+</head>
+<body>
+   
+    {{>navbar}}
+    {{>home}}
+    <div class=" text-center mb-5 mt-5">
+            <h1 class="au-heading display-3">Register</h1>
+            <hr class="mx-auto w-25"/>
+        </div>
+    
+    
+    <form class="row g-3 mx-5 my-2" action="/register" method="POST">
+  <div class="col-md-6">
+    <label for="inputFirstName4" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="inputFirstName4" placeholder="Siddhant" name="firstname">
+  </div>
+  <div class="col-md-6">
+    <label for="inputSecondName4" class="form-label">Second Name</label>
+    <input type="text" class="form-control" id="inputSecondName4" placeholder="Negi" name="secondname">
+  </div>
+  <div class="col-12">
+    <label for="inputEmail" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="@gmail.com" name="email">
+  </div>
+  
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="inputPhone" name="phone">
+  </div>
+  <div class="col-md-4">
+    <label for="inputGender" class="form-label" >Gender</label>
+    <select id="inputGender" class="form-select" name="gender">
+      <option selected></option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputAge" class="form-label">Age</label>
+    <input type="number" class="form-control" id="inputAge" name="age">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword" name="password">
+  </div>
+  <div class="col-md-6">
+    <label for="inputConfirmPassword" class="form-label">Confirm Password</label>
+    <input type="password" class="form-control" id="inputConfirmPassword" name="confirmpassword">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Register</button>
+  </div>
+</form>
+{{>footer}}
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

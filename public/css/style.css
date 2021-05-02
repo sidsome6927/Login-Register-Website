@@ -1,0 +1,70 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    
+
+}
+
+
+.register-heading{
+    padding-bottom: 40px;
+    line-height: 1px;
+    text-decoration: underline ;
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    width: 22%;
+    
+}
+
+.about_img{
+    
+width: 80%;
+height: 100%;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 8px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-reddit{
+      background:#fd0202 ;
+      color: white;
+  }
+
+  .fa-instagram{
+      background: #8a33c4;
+      color: white;
+  }
+
+  .fa-youtube{
+    background:#fd0202 ;
+    color: white;
+  }
+  
+
+
